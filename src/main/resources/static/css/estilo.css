@@ -1,0 +1,51 @@
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background-color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #176b45;
+    color: white;
+}
+
+/* Formulários */
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin: 8px;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+@media (max-width: 650px) {
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 7px;
+    }
+}
